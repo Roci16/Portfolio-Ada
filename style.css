@@ -4,7 +4,10 @@ body {
     background-color: cornflowerblue;
 }
 
-nav {
+
+/*Comienzo del Nav*/
+
+.nav-barra {
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -29,7 +32,7 @@ nav {
     justify-content: flex-end;
 }
 
-ul {
+.nav-barra ul {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -40,7 +43,7 @@ ul {
     border: 1px solid black;
 }
 
-li {
+box-nav li {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -49,3 +52,6 @@ li {
     width: 130px;
     height: 50px;
 }
+
+
+/*Fin del Nav*/
