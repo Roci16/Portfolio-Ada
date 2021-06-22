@@ -25,11 +25,11 @@ body {
 }
 
 .nav-derecha {
-    width: 90%;
-    height: 100%;
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    width: 90%;
+    height: 100%;
 }
 
 .nav-barra ul {
@@ -47,10 +47,10 @@ box-nav li {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid black;
-    background-color: mediumvioletred;
     width: 130px;
     height: 50px;
+    border: 1px solid black;
+    background-color: mediumvioletred;
 }
 
 
@@ -69,35 +69,97 @@ box-nav li {
 }
 
 .box-saludo {
-    border: 1px solid black;
-    width: 95%;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 95%;
+    border: 1px solid black;
 }
 
 .box-center {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    border: 1px solid black;
     width: 90%;
     height: 90%;
+    border: 1px solid black;
 }
 
 .info {
-    border: 1px solid black;
     width: 50%;
     height: 80%;
+    border: 1px solid black;
 }
 
 .img {
-    border: 1px solid black;
     width: 50%;
     height: 80%;
     overflow: hidden;
+    border: 1px solid black;
 }
 
 img {
     width: 100%;
+}
+
+
+/*Fin del -sobre mi-*/
+
+
+/*Comienzo seccion conocimiento*/
+
+.box-conocimientos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 800px;
+    background-color: blue;
+}
+
+.info-conocimientos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 200px;
+    text-align: center;
+    background-color: rgb(247, 0, 255);
+}
+
+.info-conocimientos p {
+    width: 45%;
+}
+
+.box-conocimientos-i {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 50%;
+    background-color: rgb(162, 133, 103);
+}
+
+.box-conocimientos-i a {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    height: 45%;
+    margin: 5px;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+}
+
+.icono {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 80px;
 }
