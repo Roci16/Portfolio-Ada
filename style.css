@@ -226,7 +226,7 @@ img {
     background-color: rgb(187, 164, 35);
 }
 
-.box-iconos-proyecto div {
+.ico-proyecto {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -244,7 +244,13 @@ img {
     background-color: white;
 }
 
-img {
+.ajuste-img {
+    width: 100%;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.ajuste-img img {
     width: 80%;
     padding-top: 5px;
 }
