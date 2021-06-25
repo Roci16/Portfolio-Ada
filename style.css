@@ -8,7 +8,7 @@ a {
 }
 
 
-/*Comienzo del Nav*/
+/*Comienzo del -Nav- */
 
 .nav-barra {
     display: flex;
@@ -57,7 +57,7 @@ a {
 }
 
 
-/*Fin del Nav*/
+/*Fin del -Nav- */
 
 
 /*Comienzo de header - sobre mi - */
@@ -104,10 +104,10 @@ img {
 }
 
 
-/*Fin del -sobre mi-*/
+/*Fin Seccion -sobre mi- */
 
 
-/*Comienzo seccion conocimiento*/
+/*Comienzo Seccion -Conocimiento- */
 
 .box-conocimientos {
     display: flex;
@@ -166,14 +166,17 @@ img {
 }
 
 
-/*Fin seccion conocimiento*/
+/*Fin Seccion -Conocimiento- */
+
+
+/*Comienzo seccion -Quote- */
 
 .quotation {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 600px;
+    height: 550px;
     background-color: #682C5A;
 }
 
@@ -187,3 +190,59 @@ img {
     border: 1px solid black;
     color: white;
 }
+
+
+/*Fin Seccion -Quote- */
+
+
+/*Comienzo seccion -Proyecto- */
+
+.proyecto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 1200px;
+    background-color: tomato;
+}
+
+.box-proyecto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 25%;
+    height: 200px;
+    text-align: center;
+    background-color: rgb(73, 177, 73);
+}
+
+.box-iconos-proyecto {
+    display: flex;
+    flex-wrap: wrap;
+    width: 57%;
+    height: 70%;
+    background-color: rgb(187, 164, 35);
+}
+
+.box-iconos-proyecto div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(131, 35, 187);
+}
+
+.box-iconos-proyecto a {
+    width: 250px;
+    height: 260px;
+    margin: 5px;
+    text-align: center;
+    border: 1px solid black;
+    background-color: white;
+}
+
+
+/*Fin Seccion -Proyecto- */
