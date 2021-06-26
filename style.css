@@ -144,6 +144,7 @@
     
     .icono {
         display: flex;
+        flex-wrap: wrap;
         font-size: 80px;
     }
     /*Fin Seccion -Conocimiento- */
@@ -159,15 +160,17 @@
     
     .box-quotation {
         display: flex;
-        flex-wrap: wrap;
         flex-direction: column;
         align-items: center;
         text-align: center;
         color: white;
     }
     
-    .box-quotation div {
+    .box-quotation div,
+    .frase {
         display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
     }
     /*Fin Seccion -Quote- */
     /*Comienzo seccion -Proyecto- */
