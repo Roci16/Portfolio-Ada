@@ -102,6 +102,7 @@
         display: flex;
         justify-content: center;
         height: 700px;
+        padding-top: 70px;
     }
     
     .box-saludo {
@@ -120,13 +121,12 @@
     }
     
     .info {
-        height: 80%;
-        border: 1px solid black;
+        display: flex;
+        flex-direction: column;
     }
     
     .img {
         width: 50%;
-        height: 80%;
     }
     
     img {
@@ -151,10 +151,6 @@
         justify-content: center;
         flex-wrap: wrap;
         text-align: center;
-    }
-    
-    .info-conocimientos p {
-        width: 400px;
     }
     
     .box-conocimientos-i {
@@ -223,20 +219,21 @@
         flex-direction: column;
         justify-content: center;
         flex-wrap: wrap;
-        width: 25%;
         text-align: center;
     }
     
     .box-iconos-proyecto {
         display: flex;
         flex-wrap: wrap;
-        width: 57%;
+        justify-content: center;
+        align-items: center;
     }
     
     .ico-proyecto {
         display: flex;
         flex-wrap: wrap;
         align-items: center;
+        width: 57%;
     }
     
     .box-iconos-proyecto a {
@@ -252,6 +249,7 @@
     .ajuste-img {
         display: flex;
         justify-content: center;
+        align-items: center;
         padding: 10px 0 5px 0;
     }
     
@@ -273,6 +271,7 @@
     .box-contacto div {
         display: flex;
         justify-content: center;
+        align-items: center;
         width: 1000px;
     }
     
