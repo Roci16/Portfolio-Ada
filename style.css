@@ -29,8 +29,14 @@
         display: flex;
         justify-content: flex-end;
         align-items: center;
+        width: 100%;
         height: 100px;
-        background-color: #e1dfcd;
+        position: fixed;
+        box-shadow: -1px 7px 38px 18px rgba(104, 44, 90, 0.46);
+        -webkit-box-shadow: -1px 7px 38px 18px rgba(104, 44, 90, 0.46);
+        -moz-box-shadow: -1px 7px 38px 18px rgba(104, 44, 90, 0.46);
+        background: rgb(225, 223, 205);
+        background-color: rgb(104, 44, 90);
     }
     
     .box-nav {
@@ -59,6 +65,35 @@
         align-items: center;
         justify-content: center;
         width: 130px;
+    }
+    
+    .color-nav {
+        color: white;
+    }
+    
+    .boton-1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 150px;
+        height: 40px;
+        border-radius: 40px;
+        background-color: #E1DFCD;
+        color: black;
+    }
+    
+    .boton-1:hover {
+        box-shadow: 2px -1px 26px 1px rgba(156, 155, 155, 1);
+        -webkit-box-shadow: 2px -1px 26px 1px rgb(184, 184, 184);
+        -moz-box-shadow: 2px -1px 26px 1px rgb(184, 184, 184);
+    }
+    
+    .color-nav:focus {
+        color: #E1DFCD;
+    }
+    
+    .boton-1:focus {
+        color: rgb(104, 44, 90);
     }
     /*Fin del -Nav- */
     /*Comienzo de header - sobre mi - */
@@ -205,10 +240,12 @@
     }
     
     .box-iconos-proyecto a {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         width: 250px;
-        height: 250px;
         margin: 5px;
-        text-align: center;
         background-color: white;
     }
     
@@ -220,5 +257,35 @@
     
     .ajuste-img img {
         width: 80%;
+        height: auto;
     }
     /*Fin Seccion -Proyecto- */
+    /*Comienzo Seccion -Contacto- */
+    
+    .box-contacto {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 70px 0;
+        background-color: rgba(225, 223, 205, 1)
+    }
+    
+    .box-contacto div {
+        display: flex;
+        justify-content: center;
+        width: 1000px;
+    }
+    
+    .caja {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 50%;
+    }
+    
+    .info-redes {}
+    
+    .info-email {}
+    /*Fin Seccion -Contacto- */
