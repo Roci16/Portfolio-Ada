@@ -23,6 +23,16 @@
      font-family: 'Chakra Petch';
      font-weight: bold;
  }
+ 
+ .ico-circulo {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 40px;
+     height: 40px;
+     border-radius: 50%;
+     background-color: rgb(0, 0, 0);
+ }
  /*Comienzo del -Nav- */
  
  .nav-barra {
@@ -53,14 +63,14 @@
      width: 90%;
  }
  
- .nav-barra ul {
+ .nav-barra>ul {
      display: flex;
      align-items: center;
      justify-content: space-around;
      width: 90%;
  }
  
- .box-nav li {
+ .box-nav>li {
      display: flex;
      align-items: center;
      justify-content: center;
@@ -305,6 +315,27 @@
      flex-wrap: wrap;
  }
  /*Fin Seccion -Contacto- */
+ /* Comienzo de Footer */
+ 
+ footer {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     background-color: #682C5A;
+ }
+ 
+ .contact-colum {
+     display: flex;
+     justify-content: space-evenly;
+     width: 400px;
+     padding: 0;
+ }
+ 
+ .contact-colum>li>a {
+     color: white;
+ }
+ /* Fin de Footer */
  /* Medias */
  
  @media (max-width: 1023px) {
@@ -335,5 +366,11 @@
      }
      .caja {
          width: 100%;
+     }
+     .footer-1 {
+         display: none;
+     }
+     .contact-colum {
+         width: 80%;
      }
  }
