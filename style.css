@@ -101,20 +101,19 @@ li {
     border-radius: 40px;
     background-color: #E1DFCD;
     color: black;
+    transition: .5s;
 }
 
 .boton-1:hover {
     box-shadow: 2px -1px 26px 1px rgba(156, 155, 155, 1);
     -webkit-box-shadow: 2px -1px 26px 1px rgb(184, 184, 184);
     -moz-box-shadow: 2px -1px 26px 1px rgb(184, 184, 184);
+    background-color: black;
+    color: rgb(255, 255, 255);
 }
 
 .color-nav:focus {
     color: #E1DFCD;
-}
-
-.boton-1:focus {
-    color: rgb(104, 44, 90);
 }
 
 
@@ -156,6 +155,22 @@ li {
 
 img {
     width: 100%;
+}
+
+.boton-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: black;
+    color: white;
+    transition: .5s;
+}
+
+.boton-2:hover {
+    background-color: rgb(104, 44, 90);
 }
 
 
@@ -403,7 +418,8 @@ footer {
         flex-wrap: wrap;
     }
     .info {
-        text-align: center;
+        display: flex;
+        align-items: center;
     }
 }
 
