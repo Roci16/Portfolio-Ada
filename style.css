@@ -280,11 +280,14 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 150px;
+    height: 200px;
     padding: 10px 0 5px 0;
+    overflow: hidden;
 }
 
 .ajuste-img img {
-    width: 80%;
+    width: 100%;
     height: auto;
 }
 
