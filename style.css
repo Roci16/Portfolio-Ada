@@ -43,6 +43,22 @@ li {
     margin: 5px 5px;
 }
 
+h2 {
+    font-size: 50px;
+    color: rgb(104, 44, 90);
+}
+
+p,
+span {
+    font-size: 20px;
+}
+
+.box-lorem {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
 
 /*Comienzo del -Nav- */
 
@@ -134,6 +150,17 @@ li {
     justify-content: center;
     align-items: center;
     width: 95%;
+}
+
+h1 {
+    font-size: 80px;
+    margin: 0;
+    color: rgb(104, 44, 90);
+}
+
+.font-hola {
+    font-size: 38px;
+    margin: 0;
 }
 
 .box-center {
@@ -268,6 +295,7 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     text-align: center;
 }
@@ -336,7 +364,6 @@ img {
 
 .columna-contacto {
     display: flex;
-    align-items: center;
     padding: 80px 0;
     width: 90%;
 }
@@ -344,8 +371,6 @@ img {
 .caja {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
     width: 50%;
 }
 
@@ -375,6 +400,11 @@ img {
     color: black;
     display: flex;
     align-items: center;
+}
+
+.box-lorem-2 {
+    width: 80%;
+    margin: 0;
 }
 
 
@@ -420,6 +450,7 @@ footer {
     .info {
         display: flex;
         align-items: center;
+        text-align: center;
     }
 }
 
@@ -443,5 +474,14 @@ footer {
     }
     .contact-colum {
         width: 80%;
+    }
+    .box-contacto {
+        border: none;
+        background-color: transparent;
+    }
+    .box-conocimientos,
+    .proyecto,
+    .contact {
+        padding: 0;
     }
 }
