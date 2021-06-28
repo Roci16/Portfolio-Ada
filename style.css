@@ -129,10 +129,6 @@ span {
     color: rgb(255, 255, 255);
 }
 
-.color-nav:focus {
-    color: #E1DFCD;
-}
-
 
 /*Fin del -Nav- */
 
@@ -306,6 +302,7 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .box-iconos-proyecto {
