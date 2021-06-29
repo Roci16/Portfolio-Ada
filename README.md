@@ -8,5 +8,3 @@
 - CSS3 
 
 ## Sitio web :earth_americas:
-
-[pulsando este link te enviará a la página web] (https://roci16.github.io/Portfolio-Ada/)
