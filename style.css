@@ -1,4 +1,5 @@
 html,
+/* no es necesario para html, que no tiene margin */
 body {
     margin: 0;
 }
@@ -74,6 +75,7 @@ span {
     box-shadow: -1px 7px 38px 18px rgba(104, 44, 90, 0.46);
     -webkit-box-shadow: -1px 7px 38px 18px rgba(104, 44, 90, 0.46);
     -moz-box-shadow: -1px 7px 38px 18px rgba(104, 44, 90, 0.46);
+    /* estas dos ordenes se contradicen entre si */
     background: rgb(225, 223, 205);
     background-color: rgb(104, 44, 90);
 }
@@ -148,6 +150,8 @@ span {
 .saludo {
     display: flex;
     justify-content: center;
+    /* no es bueno darle un height fijo a las secciones: su alto va a estar determinado por su contenido, 
+    su padding y su margin. Pensá que si alguien agregara mas texto en saludo, terminaría rebalsando el contenedor */
     height: 700px;
     padding: 100px 0;
 }
@@ -183,6 +187,7 @@ h1 {
     flex-direction: column;
 }
 
+/* esta clase deberia ser mas descriptiva, esta no es una clase general para todas las imagenes */
 .img {
     width: 50%;
 }
@@ -313,6 +318,8 @@ img {
     background-color: #e1dfcd;
 }
 
+/* fijate que parecido es esto a box-conocimientos, y pensá como reciclar esta clase en una
+mas general que pueda usarse en muchas de tus secciones */
 .box-proyecto {
     display: flex;
     flex-wrap: wrap;
